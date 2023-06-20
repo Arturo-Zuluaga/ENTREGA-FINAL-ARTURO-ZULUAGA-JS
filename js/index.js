@@ -4,6 +4,8 @@ const url = 'https://github.com/Arturo-Zuluaga/ENTREGA-FINAL-ARTURO-ZULUAGA-JS/b
 
 
 fetch ("../data/productos3.json")
+.them((response) => response.json())
+.them((data) => console.log(data));
 
 
 const containerProducts = document.getElementById('container-products');
