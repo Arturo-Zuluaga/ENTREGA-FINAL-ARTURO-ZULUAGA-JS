@@ -3,9 +3,9 @@
 const url = 'https://raw.githubusercontent.com/Arturo-Zuluaga/ENTREGA-FINAL-ARTURO-ZULUAGA-JS/main/data/productos3.json, ';
 
 
-fetch ("../data/productos3.json")
-.then((response) => response.json())
-.then((data) => console.log(data));
+// fetch ("../data/productos3.json")
+// .then((response) => response.json())
+// .then((data) => console.log(data));
 
 
 const containerProducts = document.getElementById('container-products');
@@ -330,7 +330,7 @@ async function renderizarProductos() {
     // Llamar a la función y pasarle la URL de la API que deseas consultar
     // const productos = await realizarPeticion(url);
     const productos = await realizarPeticion(file);
-    // console.log(productos);
+    console.log(productos);
 
     recorrerArray(productos);
 
