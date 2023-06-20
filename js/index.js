@@ -1,11 +1,11 @@
 
 
-const url = 'https://github.com/Arturo-Zuluaga/ENTREGA-FINAL-ARTURO-ZULUAGA-JS/blob/main/data/productos3.json';
+const url = 'https://raw.githubusercontent.com/Arturo-Zuluaga/ENTREGA-FINAL-ARTURO-ZULUAGA-JS/main/data/productos3.json, ';
 
 
 fetch ("../data/productos3.json")
-.them((response) => response.json())
-.them((data) => console.log(data));
+.then((response) => response.json())
+.then((data) => console.log(data));
 
 
 const containerProducts = document.getElementById('container-products');
