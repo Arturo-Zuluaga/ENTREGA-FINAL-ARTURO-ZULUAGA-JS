@@ -3,7 +3,7 @@
 const url = 'https://github.com/Arturo-Zuluaga/ENTREGA-FINAL-ARTURO-ZULUAGA-JS/blob/main/data/productos3.json';
 
 
-const file = '../data/productos3.json';
+fetch ("../data/productos3.json")
 
 
 const containerProducts = document.getElementById('container-products');
