@@ -1,7 +1,7 @@
 
 
-// const url = 'https://github.com/Arturo-Zuluaga/PROYECTO-FINAL-ARTURO-ZULUAGA-JS/blob/main/data/productos3.json';
-// // const url = 'https://github.com/Arturo-Zuluaga/PROYECTO-FINAL-ARTURO-ZULUAGA-JS';
+const url = 'https://github.com/Arturo-Zuluaga/ENTREGA-FINAL-ARTURO-ZULUAGA-JS/blob/main/data/productos3.json';
+
 
 const file = '../data/productos3.json';
 
