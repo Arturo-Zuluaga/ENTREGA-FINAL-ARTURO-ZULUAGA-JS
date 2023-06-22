@@ -21,7 +21,7 @@ body {
 
 }
 
-/* estilos barra de navegación */
+
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -118,7 +118,7 @@ body {
     margin-bottom: 12px;
 }
 
-/* estilos del card */
+
 .container {
     width: 100%;
     max-width: 1200px;
@@ -186,7 +186,7 @@ body {
     border: 2px solid #4caf50;
 }
 
-/* estilos de ventana Modal */
+
 .modal {
     display: none;
     position: fixed;
